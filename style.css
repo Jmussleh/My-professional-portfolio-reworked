@@ -50,7 +50,41 @@ ul a:hover {
 	color:#FEFBE9;
 }
 
+h2 {
+	color:#183A1D;
+	text-align: center;
+}
 
+.card {
+    padding: 30px;
+    float: left;
+    width: 25%;
+    background-size: contain;
+  }
+
+  .card:hover {
+    transform: translate3D(0,-1px,0) scale(1.1);
+  }
+
+  
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 0 0 25px 25px;
+  }
+
+  .Contact1 {
+    text-align: center;
+  }
+  
+  .Resume1 {
+    text-align: center;
+  }
 
 @media screen and (max-width: 968px) {
 	header {
@@ -62,6 +96,10 @@ ul a:hover {
 	nav {
 		display: none;
 	}
+	.card {
+		width: 50%;
+		float: left;
+		}
   }
 
 
@@ -75,4 +113,7 @@ ul a:hover {
 	nav {
 		display: none;
 	}
+	.card {
+		width: 100%;
+	  }
   }
